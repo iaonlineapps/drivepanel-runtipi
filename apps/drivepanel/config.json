@@ -1,0 +1,39 @@
+{
+  "$schema": "../app-info-schema.json",
+  "name": "DrivePanel",
+  "id": "drivepanel",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8590,
+  "tipi_version": 1,
+  "version": "1.0.7",
+  "categories": ["data", "photography"],
+  "description": "Your own lightweight Google Drive at home, made for the Raspberry Pi and any small home server.",
+  "short_desc": "Your own lightweight Google Drive at home.",
+  "author": "pctecnikk",
+  "website": "https://github.com/pctecnikk/drivepanel",
+  "source": "https://github.com/pctecnikk/drivepanel",
+  "supported_architectures": ["arm64", "amd64"],
+  "form_fields": [
+    {
+      "type": "boolean",
+      "label": "Allow account requests",
+      "hint": "If enabled, anyone can request an account and the administrator approves it. If disabled, only the administrator creates accounts. The first user who registers always becomes the administrator.",
+      "required": false,
+      "default": true,
+      "env_variable": "ALLOW_REGISTER"
+    },
+    {
+      "type": "number",
+      "label": "Storage quota for new users (GB)",
+      "hint": "0 = no limit.",
+      "required": false,
+      "default": 0,
+      "env_variable": "DEFAULT_QUOTA_GB"
+    }
+  ],
+  "created_at": 1795481421162,
+  "updated_at": 1795481421162,
+  "min_tipi_version": "4.5.0"
+}

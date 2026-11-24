@@ -1,0 +1,17 @@
+services:
+  drivepanel:
+    image: ghcr.io/pctecnikk/drivepanel:1.0.7
+    # The image starts as root only to fix ownership of /data, then drops to PUID:PGID.
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ}
+      - ALLOW_REGISTER=${ALLOW_REGISTER:-true}
+      - DEFAULT_QUOTA_GB=${DEFAULT_QUOTA_GB:-0}
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    x-runtipi:
+      internal_port: 8090
+      is_main: true
+x-runtipi:
+  schema_version: 2
