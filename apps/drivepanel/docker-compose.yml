@@ -1,6 +1,6 @@
 services:
   drivepanel:
-    image: ghcr.io/pctecnikk/drivepanel:1.0.7
+    image: ghcr.io/pctecnikk/drivepanel:1.0.9
     # The image starts as root only to fix ownership of /data, then drops to PUID:PGID.
     environment:
       - PUID=1000

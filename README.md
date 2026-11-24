@@ -2,8 +2,8 @@
 
 This is a small [Runtipi](https://runtipi.io) app store with one app: **DrivePanel**, your own lightweight Google Drive at home (Raspberry Pi or any Linux PC).
 
-> **Languages / Idiomas:** DrivePanel is in Spanish right now. **English is coming very soon**, and more languages will follow later if people ask for them.
-> Ahora DrivePanel está en español. **El inglés llegará muy pronto**, y más adelante otros idiomas si la gente los pide.
+> **Languages / Idiomas:** DrivePanel is available in **English and Spanish**. It follows your browser's language and can be changed in **Settings → Your preferences → Language**. More languages if people ask for them.
+> DrivePanel está en **inglés y español**. Sale en el idioma del navegador y se cambia en **Ajustes → Tus preferencias → Idioma**.
 
 ## How to add it
 

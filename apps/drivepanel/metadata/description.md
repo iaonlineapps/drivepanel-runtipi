@@ -1,6 +1,6 @@
 # DrivePanel
 
-**DrivePanel** is a lightweight personal cloud drive (about 40 MB of RAM) built for the Raspberry Pi and any small home server. Its interface is in Spanish, with light and dark mode.
+**DrivePanel** is a lightweight personal cloud drive (about 40 MB of RAM) built for the Raspberry Pi and any small home server. Its interface is in **English and Spanish** (it follows your browser and can be changed in Settings), with light and dark mode.
 
 > **Important:** the first user who registers becomes the administrator. Create your account right after installing. Later accounts stay pending until the administrator approves them in **Users**.
 
@@ -14,7 +14,9 @@
 - Multiple users with admin approval, quotas and profile pictures
 - Activity dashboard: uploads per day, disk usage, file types and live system status
 - WebDAV per user at `/dav/`, so your phone can back up photos automatically
-- Installable on your phone as an app (PWA)
+- Disk full warnings at 85 % and 95 % (configurable), in the web, in the Android app and, optionally, by Telegram
+- Watch videos and listen to music without downloading them
+- Installable on your phone as an app (PWA), plus an Android app
 
 ## Phone backup
 

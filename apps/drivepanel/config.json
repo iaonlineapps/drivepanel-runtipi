@@ -6,10 +6,10 @@
   "exposable": true,
   "dynamic_config": true,
   "port": 8590,
-  "tipi_version": 1,
-  "version": "1.0.7",
+  "tipi_version": 2,
+  "version": "1.0.9",
   "categories": ["data", "photography"],
-  "description": "Your own lightweight Google Drive at home, made for the Raspberry Pi and any small home server.",
+  "description": "Your own lightweight Google Drive at home, made for the Raspberry Pi and any small home server. In English and Spanish.",
   "short_desc": "Your own lightweight Google Drive at home.",
   "author": "pctecnikk",
   "website": "https://github.com/pctecnikk/drivepanel",
@@ -34,6 +34,6 @@
     }
   ],
   "created_at": 1795481421162,
-  "updated_at": 1795481421162,
+  "updated_at": 1795536299781,
   "min_tipi_version": "4.5.0"
 }
