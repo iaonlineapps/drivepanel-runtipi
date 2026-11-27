@@ -34,4 +34,4 @@ DrivePanel uses plain HTTP. Do not open its port on your router: use a VPN, or e
 
 PolyForm Noncommercial 1.0.0. Free for personal, family, school and non-profit use; commercial use is not allowed.
 
-[DrivePanel on GitHub](https://github.com/pctecnikk/drivepanel)
+[DrivePanel on GitHub](https://github.com/iaonlineapps/drivepanel)
