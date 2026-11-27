@@ -11,9 +11,9 @@
   "categories": ["data", "photography"],
   "description": "Your own lightweight Google Drive at home, made for the Raspberry Pi and any small home server. In English and Spanish.",
   "short_desc": "Your own lightweight Google Drive at home.",
-  "author": "pctecnikk",
-  "website": "https://github.com/pctecnikk/drivepanel",
-  "source": "https://github.com/pctecnikk/drivepanel",
+  "author": "IA Online Apps",
+  "website": "https://github.com/iaonlineapps/drivepanel",
+  "source": "https://github.com/iaonlineapps/drivepanel",
   "supported_architectures": ["arm64", "amd64"],
   "form_fields": [
     {
